@@ -7,7 +7,7 @@ import {
   TouchableOpacity,
 } from 'react-native';
 
-import {evaluate} from 'mathjs';
+import {stringCalculator} from './StringCalculator';
 
 const StringCalculator = () => {
   const [input, setInput] = useState('');
@@ -18,13 +18,8 @@ const StringCalculator = () => {
   };
 
   const calculateResult = () => {
-    try {
-      const formattedInput = input.replace(/,/g, '+');
-      const evaluatedResult = evaluate(formattedInput);
-      setResult(evaluatedResult.toString());
-    } catch (error) {
-      setResult('Error');
-    }
+    const evaluatedResult = stringCalculator(input);
+    setResult(evaluatedResult.toString());
   };
 
   return (

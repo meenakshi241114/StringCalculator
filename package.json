@@ -38,5 +38,11 @@
   },
   "engines": {
     "node": ">=18"
+  },
+  "jest": {
+    "preset": "react-native",
+    "setupFilesAfterEnv": [
+      "@testing-library/jest-native/extend-expect"
+    ]
   }
 }
