@@ -1,0 +1,9 @@
+# ninja log v5
+3747	3919	1737657978199463838	/Users/admin/workspace/StringCalculator/android/app/build/intermediates/cxx/Debug/6c216135/obj/arm64-v8a/libappmodules.so	49c4c0b5d87696c1
+0	3746	1737657978023358764	CMakeFiles/appmodules.dir/OnLoad.cpp.o	4fd566cfabd5c876
+0	3520	1737657977796118637	CMakeFiles/appmodules.dir/Users/admin/workspace/StringCalculator/android/app/build/generated/autolinking/src/main/jni/autolinking.cpp.o	871711fea65be7c8
+29	101	0	/Users/admin/workspace/StringCalculator/android/app/.cxx/Debug/6c216135/arm64-v8a/CMakeFiles/cmake.verify_globs	ac6b27e59c339c35
+0	6	0	/Users/admin/workspace/StringCalculator/android/app/.cxx/Debug/6c216135/arm64-v8a/CMakeFiles/cmake.verify_globs	ac6b27e59c339c35
+10	2123	1737703474746494405	CMakeFiles/appmodules.dir/Users/admin/workspace/StringCalculator/android/app/build/generated/autolinking/src/main/jni/autolinking.cpp.o	871711fea65be7c8
+9	2304	1737703474928884571	CMakeFiles/appmodules.dir/OnLoad.cpp.o	4fd566cfabd5c876
+2304	2520	1737703475150242612	/Users/admin/workspace/StringCalculator/android/app/build/intermediates/cxx/Debug/6c216135/obj/arm64-v8a/libappmodules.so	49c4c0b5d87696c1
